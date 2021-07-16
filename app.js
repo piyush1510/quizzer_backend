@@ -22,7 +22,7 @@ app.use(express.json());
 app.use('/user',require('./routes/user'))
 // app.use('/admin',require('./routes/admin'))
 
-app.use('/quiz',require('./routes/quiz'))
+// app.use('/quiz',require('./routes/quiz'))
 
 //errors
 app.use((err, req, res, next) => {
