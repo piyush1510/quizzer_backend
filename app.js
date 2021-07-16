@@ -19,8 +19,9 @@ const app = express();
 app.use(require('morgan')('dev'));
 app.use(express.json());
 
-app.use('/admin',require('./routes/admin'))
 app.use('/user',require('./routes/user'))
+// app.use('/admin',require('./routes/admin'))
+
 app.use('/quiz',require('./routes/quiz'))
 
 //errors
