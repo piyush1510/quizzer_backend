@@ -9,5 +9,5 @@ router
     .post('/create',quizController.createQuiz)
     .delete('/delete/:id',quizController.deleteQuiz)
     .get('/quiz/:id',quizController.getOneQuiz)
-    // .post('/answer',quizController.answerQuiz)
+    .post('/answer/:id',quizController.answerQuiz)
 module.exports = router;
